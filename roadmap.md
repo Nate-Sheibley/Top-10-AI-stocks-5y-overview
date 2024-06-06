@@ -1,4 +1,4 @@
-# Description
+# Project Description
 
 Look into AI stocks and performance compared to other indicator stocks. 
 
@@ -26,11 +26,9 @@ https://polygon.io/ for free stock market API if we have additional stock data -
 
 
 
-# Plan
+# Plan: Agendas and Action items
 
-
-
-## Meeting 1
+## Meeting 1 Agenda
 
 Decide exact data/scope
 
@@ -40,7 +38,7 @@ Get API keys
 
 Make API calls
 
-lean data. Come back with good data monday
+clean data. Come back with good data monday
 
 ### TODO - sort into tasks/scope as appropriate
 
@@ -74,10 +72,10 @@ When would AI have been the best investment. Is it still?
 PREDICTIONS
 
 
-## Meeting 2
+## Meeting 2 Agenda
 
 
-## Meeting 3
+## Meeting 3 Agenda
 
 
-## Meeting 4
+## Meeting 4 Agenda
