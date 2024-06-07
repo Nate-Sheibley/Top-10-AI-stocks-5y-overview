@@ -114,6 +114,7 @@ PREDICTIONS
 ### Advise from instructors:
 
 [Proposal presentation](https://docs.google.com/presentation/d/18OrJYFomjt88RlA2M-8i7M9ukaBOeqgP/edit#slide=id.p1)
+[gDoc Proposal](https://docs.google.com/document/d/139RJ7I75FHh-fn9RsUAjRVN0J7TTHlilzZtuNa3ryxY/edit)
  
 market data api - there's a whole bunch. Check free tiers
 
