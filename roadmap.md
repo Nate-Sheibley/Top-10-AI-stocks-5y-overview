@@ -35,7 +35,19 @@ Graphs:
 
 https://www.kaggle.com/datasets/vladimirmijatovic/ai-stocks 
 
-https://polygon.io/ stock market API if we have additional stock data - only povides 2y historical data for free
+https://polygon.io/ stock market API if we have additional stock data - only povides 2y historical data for free. No indicies data
+
+https://www.alphavantage.co/ has historic indicies data. May be hard to get opening closing. 25 req daylie limit
+
+https://marketstack.com/ has historic indicies data. May be hard to get opening closing. 100 req monthly limit
+
+# Proposal documents
+
+[Proposal presentation](https://docs.google.com/presentation/d/18OrJYFomjt88RlA2M-8i7M9ukaBOeqgP/edit#slide=id.p1)
+
+[gDoc Proposal](https://docs.google.com/document/d/139RJ7I75FHh-fn9RsUAjRVN0J7TTHlilzZtuNa3ryxY/edit)
+
+
 
 
 
@@ -43,17 +55,67 @@ https://polygon.io/ stock market API if we have additional stock data - only pov
 ---
 # Plan: Agendas and Action items
 
-## Meeting 2 Agenda
-AA: Find API for stock indicies (Dow Jones and S&P500)
+Target: Data processing done by Monday (10th) EOD
+
+Target: Plots done by Wed (12th) EOD
+
+Target: 
+
+Target: Presentations done Sat (15th) EOD
+
+## Meeting 3 Agenda
+
+### To complete by start of meeting 3
+
+AI-: Do API calls for S&P500 and DJ
+
+AI-: Clean kaggle data
+
+AI: Write functions for calculations using kaggle data as template. Use slide 6-7 in presentation
+
+cumReturns
+
+daylieReturns
+
+Volitility
+
+Correlation to stock indicies
+
+avg topAI stock price
+
+AI: Clean API data. Transform API data to match kaggle data
+
+AI: Apply calculations to API datasets. Check there are not errors from mismatched dataset format
+
+cumReturns
+
+daylieReturns
+
+Volitility
+
+Correlation to stock indicies
+
+avg topAI stock price
+
+AI: Turn google proposal docs to read only
+
+
+
+---
+
+## Meeting 2 Agenda Jun 6 2024
+AI: Build project tracker
+
+AI: Find API for stock indicies (Dow Jones and S&P500)
 
 Response: If can not find API by EOD Shift to 2 years of data and use polygon API. Target, complete current 2 years of analysis, if time, and API anllows expand backways in 2y increments
 
 
-AA: Scope of stock metric APIs: 
+AI: Scope of stock metric APIs: 
 
 Response: cumReturns, daylieReturns, Volitility, Correlation to stock indicies, avg topAI stock price
 
-AA: Decide graphs
+AI: Decide graphs
 
 Response: 
   * Correlation to stock indicies w/ regression lines
@@ -64,11 +126,9 @@ Response:
   * graph of total trade price for each company and compare ratios (stacked bar? scatter?)
   * Correlation heatmap for AI stocks to see if all are similar
 
-
-
 ---
 
-## Meeting 1 Agenda
+## Meeting 1 Agenda Jun 5 2024
 
 Decide exact data/scope
 
@@ -114,6 +174,7 @@ PREDICTIONS
 ### Advise from instructors:
 
 [Proposal presentation](https://docs.google.com/presentation/d/18OrJYFomjt88RlA2M-8i7M9ukaBOeqgP/edit#slide=id.p1)
+
 [gDoc Proposal](https://docs.google.com/document/d/139RJ7I75FHh-fn9RsUAjRVN0J7TTHlilzZtuNa3ryxY/edit)
  
 market data api - there's a whole bunch. Check free tiers
@@ -129,8 +190,6 @@ what metrics. performance? volatility? correlations?  pick sub ranges
 focus on most current data primary.
 
 take a sample of the years? 1 year current. 1 year before boom. a sample of other years tbd.
-
-## Meeting 3 Agenda
 
 
 ## Meeting 4 Agenda
