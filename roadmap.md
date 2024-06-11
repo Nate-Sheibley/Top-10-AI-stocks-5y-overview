@@ -57,22 +57,36 @@ https://marketstack.com/ has historic indicies data. May be hard to get opening 
 
 Target: Data processing done by Monday (10th) EOD
 
-Target: Plots done by Wed (12th) EOD
+Target: Data cleaning and processing done by Wed (12th) EOD
 
-Target: 
+Target: Plots done by Fri (14th) EOD
 
 Target: Presentations done Sat (15th) EOD
+
+Target: Practice presentation Sunday
+
+
+## Meeting 4 Agenda
+AI: adjust scripts to save 10y of data. Combine dataframes and save a master csv
+
+AI: Write functions for calculations using kaggle data as template. Use slide 6-7 in presentation
+cumReturns, daylieReturns, Volitility, Correlation to stock indicies, avg top AI stockprice
+
+AI: Apply calculations to API datasets. Check there are not errors from mismatched dataset format
+
+AI: hypothesis development - poposal presentation
+
 
 ## Meeting 3 Agenda
 
 ### To complete by start of meeting 3
 
 AI-: Do API calls for S&P500 and DJ
-
+Done
 AI-: Clean kaggle data
-
+Done
 AI: Write functions for calculations using kaggle data as template. Use slide 6-7 in presentation
-
+Incomplete
 cumReturns
 
 daylieReturns
@@ -191,5 +205,3 @@ focus on most current data primary.
 
 take a sample of the years? 1 year current. 1 year before boom. a sample of other years tbd.
 
-
-## Meeting 4 Agenda
