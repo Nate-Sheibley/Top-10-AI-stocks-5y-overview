@@ -24,5 +24,6 @@ correlation graph | Some stocks were good indicators of others, some were not, Y
 
 Response : We're going to use the proposal slide deck. https://docs.google.com/presentation/d/18OrJYFomjt88RlA2M-8i7M9ukaBOeqgP/edit#slide=id.g2e5b37fad8a_2_9 
 
-
+# Analysis Report
+Insert the shared ReadME google doc after everyone has updated their plot interpretations. 
 
