@@ -64,25 +64,25 @@ Medium risk: 10% ≤ STD < 20%
 High risk: ≥20% STD
 Now, let's move on to the graphs that illustrate these concepts in the context of our analysis.
  
-### Plots:
+## Plots:
  
-A. Bar graph of average cumulative return for AI companies 2019-2024
+### A. Bar graph of average cumulative return for AI companies 2019-2024
 ![Bar graph of average cumulative return for AI companies 2019-2024](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/Average_Cumulative_Returns_2019-2024.png?raw=true)
 
 This bar graph on the right shows an average cumulative return of each stock during 2019-2024. It indicate that some AI companies outperformed S&P 500 and Dow Jones,while others under performed
  
-B. Line graph of average daily returns for AI companies 2019-2024
+### B. Line graph of average daily returns for AI companies 2019-2024
 ![Line graph of average daily returns for AI companies 2019-2024.](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/Average_Daily_Returns_2.png?raw=true)
 
-C. Cumulative daylie returns for index ETFs and AI average
+### C. Cumulative daylie returns for index ETFs and AI average
 ![Cumulative daylie returns for index ETFs and AI average](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/cumulative_returns_all.png?raw=true)
  
-D. Highlight: Line graph of average daily returns for AI companies in 2020
+### D. Highlight: Line graph of average daily returns for AI companies in 2020
 ![Highlight: Line graph of average daily returns for AI companies in 2020](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/Average_Daily_Returns_2020.png?raw=true)
 
 This is a snapshot to show the situation during Covid-19 and how all stocks went down in March 2020, when lockdown started.
 
-E. Line graph of average daily returns with volatility error bars to display the variance
+### E. Line graph of average daily returns with volatility error bars to display the variance
 ![Line graph of average daily returns with volatility error bars to display the variance](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/average_daily_return_with_volatility_selected_symbols.png?raw=true)
 
 This graph shows average daily returns with different colors indicating volatility (standard deviation) in %. For the cleaner visualization of our data, we selected the 2 the most and 2 the least volatile companies, as well as S&P 500 and D
@@ -90,16 +90,16 @@ The S&P 500 and Amazon have the lowest volatility, making them the safest invest
 AI and Tesla have the highest volatility among the analyzed stocks. But overall, all these stocks with an exception AI have low risk (below 10%). This shows no significant advantage of AI companies compared to S&P 500 and Dow Jones regarding risk assessments.
 
  
-### Statistical testing and visualization 
+## Statistical testing related visualizations
  
-Violin Plots to display the distributions
+### Violin Plots to display the distributions
 
 ![Daily returns averaged over all years for the AI companies](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/Box_and_violin/violin_plot_AI_sep_all_years.png?raw=true)
 
 Violin plots to visualize the distributions in an intuitive manner and suggest the ANOVA results. In lightof the AVONA testing, Nvidia is different from Amazon and Meta, which is not obvious from this plot. PATH and AI were removed from the ANOVA testing as the data was not the same length as the other stocks, unbalanced.
 
 
-Daily returns per year for AI companies averaged together, then plotted next to the indices (SPY, DOW, INDU). 
+### Daily returns per year for AI companies averaged together, then plotted next to the indices (SPY, DOW, INDU). 
 
 ![AIStocksProject/Plots/Box_and_violin/violinplots_aimerged_year_by_year_small_limits.png](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/Box_and_violin/violinplots_aimerged_year_by_year_small_limits.png?raw=true)
 
@@ -149,7 +149,7 @@ The t-test pairs showing a significant mean between 2019-2024 are between NVDA a
 
 ## Additional Considerations
  
-Plots:
+### Average closing prices of each stock by year
 ![Average closing prices of each stock by year](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/Average_Closing_Prices.png?raw=true)
 
 
@@ -157,6 +157,7 @@ This line graph shows that the stock prices of most AI companies are below those
 
 The prices of AI companies appear to fluctuate more compared to the S&P 500 and the Dow Jones. This indicates that for conservative investors, AI companies may not be the safest investment option.
 
+### Average closing prices over time (last 5 years)
 
 ![Average closing prices over time (last 5 years)](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/average_closing_prices_over_time.png?raw=true)
 
