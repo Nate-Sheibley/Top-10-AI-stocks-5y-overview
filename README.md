@@ -54,7 +54,7 @@ B. Line graph of average daily returns for AI companies 2019-2024
 ![Line graph of average daily returns for AI companies 2019-2024.](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/Average_Daily_Returns_2.png?raw=true)
 
 C. Cumulative daylie returns for index ETFs and AI average
-![Cumulative daylie returns for index ETFs and AI average](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/Cumulative daylie returns for index ETFs and AI average?raw=true)
+![Cumulative daylie returns for index ETFs and AI average]("https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/Cumulative daylie returns for index ETFs and AI average?raw=true")
  
 D. Highlight: Line graph of average daily returns for AI companies in 2020
 ![Highlight: Line graph of average daily returns for AI companies in 2020](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/Average_Daily_Returns_2020.png?raw=true)
