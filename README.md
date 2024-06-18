@@ -2,10 +2,10 @@
 UCBerkeley-Ext data analytics bootcamp Project 1
 
 ## Team Memebers 
-* Nathan Sheibley
+* Nathan Sheibley 
 * Krissy Knight
 * Dante Parcon
-* Sabrina Linden
+* Olga Sabrina Linden
 * Andrea Moncada
 * Melissa Glover
 
