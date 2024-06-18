@@ -73,7 +73,7 @@ AI and Tesla have the highest volatility among the analyzed stocks. But overall,
  
 Violin Plots to display the distributions
 
-![Daily returns averaged over all years for the AI companies](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/AIStocksProject/Plots/Box_and_violin/violin_plot_AI_sep_all_years.png?raw=true)
+![Daily returns averaged over all years for the AI companies](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/Box_and_violin/violin_plot_AI_sep_all_years.png?raw=true)
 
 Violin plots to visualize the distributions in an intuitive manner and suggest the ANOVA results. In lightof the AVONA testing, Nvidia is different from Amazon and Meta, which is not obvious from this plot. PATH and AI were removed from the ANOVA testing as the data was not the same length as the other stocks, unbalanced.
 
