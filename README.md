@@ -46,7 +46,7 @@ Now, let's move on to the graphs that illustrate these concepts in the context o
 ### Plots:
  
 A. Bar graph of average cumulative return for AI companies 2019-2024
-![Bar graph of average cumulative return for AI companies 2019-2024](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/cumulative_returns_all.png?raw=true)
+![Bar graph of average cumulative return for AI companies 2019-2024](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/Average_Cumulative_Returns_2019-2024.png?raw=true)
 
 This bar graph on the right shows an average cumulative return of each stock during 2019-2024. It indicate that some AI companies outperformed S&P 500 and Dow Jones,while others under performed
  
@@ -54,7 +54,7 @@ B. Line graph of average daily returns for AI companies 2019-2024
 ![Line graph of average daily returns for AI companies 2019-2024.](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/Average_Daily_Returns_2.png?raw=true)
 
 C. Cumulative daylie returns for index ETFs and AI average
-![Cumulative daylie returns for index ETFs and AI average](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/AIStocksProject/Plots/cumulative_returns_avging_AI.png?raw=true)
+![Cumulative daylie returns for index ETFs and AI average](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/cumulative_returns_all.png?raw=true)
  
 D. Highlight: Line graph of average daily returns for AI companies in 2020
 ![Highlight: Line graph of average daily returns for AI companies in 2020](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/Average_Daily_Returns_2020.png?raw=true)
