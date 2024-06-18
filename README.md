@@ -2,10 +2,10 @@
 UCBerkeley-Ext data analytics bootcamp Project 1
 
 ## Team Memebers 
-* Nathan Sheibley
+* Nathan Sheibley 
 * Krissy Knight
 * Dante Parcon
-* Sabrina Linden
+* Olga Sabrina Linden
 * Andrea Moncada
 * Melissa Glover
 
@@ -14,9 +14,13 @@ This project investigated the performance of top AI companies compared to establ
 
 We analyzed daily and cumulative returns, along with volatility (risk), to assess profitability and risk associated with each investment option. While some AI companies exhibited impressive growth, overall, there wasn't a significant difference in returns between AI companies and the market indexes. Additionally, despite higher volatility in some AI stocks, the overall risk profile wasn't demonstrably lower compared to the indexes.
 
-Conclusion: Our findings suggest that AI companies, while promising, haven't consistently surpassed the market indexes in terms of returns or risk reduction. Therefore, we failt to reject the null hypothesis, which stated there would be no significant difference between AI companies and the indexes.
+## Conclusion
 
-Link to the Power Point Presentation: https://docs.google.com/presentation/d/18OrJYFomjt88RlA2M-8i7M9ukaBOeqgP/edit#slide=id.g2e5b37fad8a_2_9 
+Our analysis shows that while AI companies have strong returns and generally low volatility; they do not outperform or display lower risk than the S&P 500 and Dow Jones indices consistently.
+
+Since any difference is largely statistically insignificant, we fail to reject our null hypothesis, indicating AI companies in general are not different from the indices. Specific companies like Nvidia may not adhere to this generalization.
+
+Link to the [Power Point Presentation](https://docs.google.com/presentation/d/18OrJYFomjt88RlA2M-8i7M9ukaBOeqgP/edit#slide=id.g2e5b37fad8a_2_9 )
 
 
 # Question of interest and the hypothesis
@@ -92,9 +96,10 @@ Based on the plots above, it is questionable whether or not there is statistical
  
 Method: Repeated measures ANOVA is used to test the difference between means over time for multiple groups. We want to know whether there is a statistical difference in the average daily mean return between the top 10 AI companies and the indices from 2019 to 2024.
  
-#### General Hypothesis
+#### Hypothesis
 
-H0: all means are equal | Ha: at least one mean is different
+
+H0: All tested distributions are indistinguishable | Ha: At least one distritbution is different
  
 Hypotheses|F-Statistic|Numerator DF|Denominator DF|P-Value
 ---|---|---|---|---
@@ -111,7 +116,9 @@ top AI companies.
  
 ###  Analysis #2: Post-hoc Pairwise T-tests
 
-Method: Post-hoc pairwise t-tests are performed after a significant ANOVA test to see which mean pairs are driving the differences found among the groups. A Bonferroni adjustment is used to test for multiple comparisons, a necessary p-value adjustment when performing multiple tests.
+Method: Post-hoc pairwise t-tests are performed after a significant ANOVA test to see which mean pairs are driving the differences found among the groups. 
+
+A Bonferroni adjustment is used to test for multiple comparisons, a necessary p-value adjustment when performing multiple tests.
  
 
 Pairwise Post-hoc Tests|T-Test statistic|P-Value
@@ -137,3 +144,9 @@ The prices of AI companies appear to fluctuate more compared to the S&P 500 and 
 ![Average closing prices over time (last 5 years)](https://github.com/Nate-Sheibley/UCB-Data-Proj1-G3/blob/main/AIStocksProject/Plots/average_closing_prices_over_time.png?raw=true)
 
 Average closing price of each stock/index during 2019 - 2024. The previous slide showed a line graph; this slide presents a scatter plot of the same information
+
+# General Conclusion 
+
+Our analysis shows that while AI companies have strong returns and generally low volatility; they do not outperform or display lower risk than the S&P 500 and Dow Jones indices consistently.
+
+Since any difference is largely statistically insignificant, we fail to reject our null hypothesis, indicating AI companies in general are not different from the indices. Specific companies like Nvidia may not adhere to this generalization.
