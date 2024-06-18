@@ -22,6 +22,10 @@ Since any difference is largely statistically insignificant, we fail to reject o
 
 Link to the [Power Point Presentation](https://docs.google.com/presentation/d/18OrJYFomjt88RlA2M-8i7M9ukaBOeqgP/edit#slide=id.g2e5b37fad8a_2_9 )
 
+# Data
+
+Top 10 AI companies [kaggle dataset](https://www.kaggle.com/datasets/vladimirmijatovic/ai-stocks) 1990 through present as selected by Forbes
+S&P 500 and Dow Jones index ETF funds gathered through [alphavantage.co](http://alphavantage.co) API
 
 # Question of interest and the hypothesis
  
@@ -33,6 +37,19 @@ If I invest in the top AI companies, then I will see better profit compared to t
 There is no significant difference between the growth of AI stocks and the market indexes, as determined by average daily return year over year from 2019-2024, as compared to the S&P 500 or DOW.
 ### Alt Hypothesis
 There is a significant difference between the growth of AI stocks and the market indexes as determined by average daily return year over year from 2019-2024, as compared to S&P 500 or DOW.
+
+# Background 
+
+Analyzing stock performance involves multiple factors. In this project, we used a simplified approach based on parameters such as average stock prices, daily and cumulative returns, and volatility.
+Daily and Cumulative Returns: Indicators of a stock's performance over specific periods.
+Volatility (Standard Deviation): Measure of stock risk. Higher deviation indicates higher risk.
+
+Risk Levels Based on Standard Deviation (STD):
+
+* Low risk: < 10% STD
+* Medium risk: 10% ≤ STD < 20%
+* High risk: ≥ 20% STD
+
  
 # Stock Performance Visualization
  
