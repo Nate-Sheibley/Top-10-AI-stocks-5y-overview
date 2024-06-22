@@ -168,3 +168,6 @@ Average closing price of each stock/index during 2019 - 2024. The previous slide
 Our analysis shows that while AI companies have strong returns and generally low volatility; they do not outperform or display lower risk than the S&P 500 and Dow Jones indices consistently.
 
 Since any difference is largely statistically insignificant, we fail to reject our null hypothesis, indicating AI companies in general are not different from the indices. Specific companies like Nvidia may not adhere to this generalization.
+
+### Addtional information of the materials included in this project are
+![alt text](image.png)
