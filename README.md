@@ -14,14 +14,6 @@ This project investigated the performance of top AI companies compared to establ
 
 We analyzed daily and cumulative returns, along with volatility (risk), to assess profitability and risk associated with each investment option. While some AI companies exhibited impressive growth, overall, there wasn't a significant difference in returns between AI companies and the market indexes. Additionally, despite higher volatility in some AI stocks, the overall risk profile wasn't demonstrably lower compared to the indexes.
 
-## Conclusion
-
-Our analysis shows that while AI companies have strong returns and generally low volatility; they do not outperform or display lower risk than the S&P 500 and Dow Jones indices consistently.
-
-Since any difference is largely statistically insignificant, we fail to reject our null hypothesis, indicating AI companies in general are not different from the indices. Specific companies like Nvidia may not adhere to this generalization.
-
-Link to the [Power Point Presentation](https://docs.google.com/presentation/d/18OrJYFomjt88RlA2M-8i7M9ukaBOeqgP/edit#slide=id.g2e5b37fad8a_2_9 )
-
 # Data
 
 Top 10 AI companies [kaggle dataset](https://www.kaggle.com/datasets/vladimirmijatovic/ai-stocks) 1990 through present as selected by Forbes
@@ -50,8 +42,17 @@ Risk Levels Based on Standard Deviation (STD):
 * Medium risk: 10% ≤ STD < 20%
 * High risk: ≥ 20% STD
 
+## Conclusion
+
+Our analysis shows that while AI companies have strong returns and generally low volatility; they do not outperform or display lower risk than the S&P 500 and Dow Jones indices consistently.
+
+Since any difference is largely statistically insignificant, we fail to reject our null hypothesis, indicating AI companies in general are not different from the indices. Specific companies like Nvidia may not adhere to this generalization.
+
+Link to the [Power Point Presentation](https://docs.google.com/presentation/d/18OrJYFomjt88RlA2M-8i7M9ukaBOeqgP/edit#slide=id.g2e5b37fad8a_2_9 )
+
+---
  
-# Stock Performance Visualization
+# Stock Performance Visualizations
  
 Analyzing stock performance involves multiple factors. In this project, we used a simplified approach based on parameters such as average stock prices, daily and cumulative returns, and volatility.
 
@@ -124,7 +125,7 @@ AI companies and indices|2.6513|5|15|0.0655
 AI companies only|8.6322|5|35|0.0000
 
  
-#### Conclusions: 
+#### ANOVA Conclusions: 
 
 1. Fail to reject the null hypothesis. There is not enough evidence to suggest al difference between AI aggregate performance and indices ETFs
 2. Reject the null hypothesis.
@@ -143,7 +144,7 @@ Pairwise Post-hoc Tests|T-Test statistic|P-Value
 AMZN & NVDA|-2.8266|0.0368
 META & NVDA|-2.9126|0.0332
 
-#### Conclusion: 
+#### Pairwise Post-hoc Conclusion: 
 
 The t-test pairs showing a significant mean between 2019-2024 are between NVDA and AMZN and then NVDA and META.
 
@@ -163,7 +164,7 @@ The prices of AI companies appear to fluctuate more compared to the S&P 500 and 
 
 Average closing price of each stock/index during 2019 - 2024. The previous slide showed a line graph; this slide presents a scatter plot of the same information
 
-# General Conclusion 
+# Conclusion 
 
 Our analysis shows that while AI companies have strong returns and generally low volatility; they do not outperform or display lower risk than the S&P 500 and Dow Jones indices consistently.
 
