@@ -169,5 +169,5 @@ Our analysis shows that while AI companies have strong returns and generally low
 
 Since any difference is largely statistically insignificant, we fail to reject our null hypothesis, indicating AI companies in general are not different from the indices. Specific companies like Nvidia may not adhere to this generalization.
 
-### Addtional information of the materials included in this project are
+### Addtional information of the materials included in this project
 ![alt text](image.png)
