@@ -1,13 +1,4 @@
-# UCB-Data-Proj1-G3
-UCBerkeley-Ext data analytics bootcamp Project 1
-
-## Team Memebers 
-* Nathan Sheibley 
-* Krissy Knight
-* Dante Parcon
-* Olga Sabrina Linden
-* Andrea Moncada
-* Melissa Glover
+# TOP 10 AI Stocks-5 Year Performance Overview
 
 # Project Summary: AI Companies vs. S&P 500 and Dow Jones
 This project investigated the performance of top AI companies compared to established market indexes, the S&P 500 and Dow Jones, over the past five years (2019-2024).
@@ -172,3 +163,16 @@ Since any difference is largely statistically insignificant, we fail to reject o
 
 ### Addtional information of the materials included in this project
 ![alt text](image.png)
+
+## UCB-Data-Proj1-G3
+UCBerkeley-Ext data analytics bootcamp Project 1 Group 3
+
+## Team Memebers 
+* Nathan Sheibley 
+* Krissy Knight
+* Dante Parcon
+* Olga Sabrina Linden
+* Andrea Moncada
+* Melissa Glover
+
+
