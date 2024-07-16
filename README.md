@@ -1,16 +1,16 @@
-# TOP 10 AI Stocks-5 Year Performance Overview
+# Top 10 AI Stocks-5 Year Performance Overview
 
-# Project Summary: AI Companies vs. S&P 500 and Dow Jones
+## Project Summary: AI Companies vs. S&P 500 and Dow Jones
 This project investigated the performance of top AI companies compared to established market indexes, the S&P 500 and Dow Jones, over the past five years (2019-2024).
 
 We analyzed daily and cumulative returns, along with volatility (risk), to assess profitability and risk associated with each investment option. While some AI companies exhibited impressive growth, overall, there wasn't a significant difference in returns between AI companies and the market indexes. Additionally, despite higher volatility in some AI stocks, the overall risk profile wasn't demonstrably lower compared to the indexes.
 
-# Data
+## Data
 
 Top 10 AI companies [kaggle dataset](https://www.kaggle.com/datasets/vladimirmijatovic/ai-stocks) 1990 through present as selected by Forbes
 S&P 500 and Dow Jones index ETF funds gathered through [alphavantage.co](http://alphavantage.co) API
 
-# Question of interest and the hypothesis
+## Question of interest and the hypothesis
  
 ### Question
 Does the growth of AI stocks in the last 5 years suggest that investing in these companies is significantly more profitable than investing in most other companies based on the market indexes?
@@ -21,7 +21,7 @@ There is no significant difference between the growth of AI stocks and the marke
 ### Alt Hypothesis
 There is a significant difference between the growth of AI stocks and the market indexes as determined by average daily return year over year from 2019-2024, as compared to S&P 500 or DOW.
 
-# Background 
+## Background 
 
 Analyzing stock performance involves multiple factors. In this project, we used a simplified approach based on parameters such as average stock prices, daily and cumulative returns, and volatility.
 Daily and Cumulative Returns: Indicators of a stock's performance over specific periods.
