@@ -167,7 +167,7 @@ Since any difference is largely statistically insignificant, we fail to reject o
 ## UCB-Data-Proj1-G3
 UCBerkeley-Ext data analytics bootcamp Project 1 Group 3
 
-## Team Memebers 
+## Team Members 
 * Nathan Sheibley 
 * Krissy Knight
 * Dante Parcon
