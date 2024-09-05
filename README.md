@@ -8,6 +8,7 @@ We analyzed daily and cumulative returns, along with volatility (risk), to asses
 ## Data
 
 Top 10 AI companies [kaggle dataset](https://www.kaggle.com/datasets/vladimirmijatovic/ai-stocks) 1990 through present as selected by Forbes
+
 S&P 500 and Dow Jones index ETF funds gathered through [alphavantage.co](http://alphavantage.co) API
 
 ## Question of interest and the hypothesis
